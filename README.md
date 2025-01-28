@@ -12,7 +12,6 @@ and local versus global variable scope.
 In addition there is no need for an clean up activity.
 
 In fact it is a set of 3 SQL Methods:
-
 - HDEC to mimic SQL DECLARE @var and SQL SET @var   
 - HGETV and HGETI  to return the variable value as VARCHAR or INT   
 As a side feature NULL is returned if the variable wasn't set of
