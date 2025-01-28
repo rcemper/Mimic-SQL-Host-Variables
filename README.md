@@ -30,13 +30,29 @@ To build and start the container run:
 ```
 $ docker compose up -d && docker compose logs -f
 ```
-To open IRIS Terminal do:
+To open IRIS console Terminal do:
 ```
 $ docker-compose exec iris iris session iris
 USER>
 ```
-To access IRIS System Management Portal
+To access IRIS System Management Portal (SMP)
 ```
 http://localhost:42773/csp/sys/UtilHome.csp
 ```
+To access Iterm in browser
+```
+http://localhost:42773/iterm/
+```
 ### How to use it
+
+You can run the SQL scripts from SMP/ Explorer / SQL
+or from SQL shell in terminal or console
+```
+USER>:sql
+SQL Command Line Shell
+----------------------------------------------------
+The command prefix is currently set to: <<nothing>>.
+Enter <command>, 'q' to quit, '?' for help.
+[SQL]USER>>
+```
+[Article in DC](https://community.intersystems.com/post/sql-host-variables-missing)  
