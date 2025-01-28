@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Export generator="Cache" version="25">
+  <Document name="hostvars.ZPM">
+    <Module>
+      <Name>hostvars</Name>
+      <Version>0.0.1</Version>
+      <Description>Mimic SQl Host Variables</Description>
+      <Keywords>SQL</Keywords>
+      <Packaging>module</Packaging>
+      <SourcesRoot>src</SourcesRoot>
+       <Resource Name="User.PKG"/>
+    </Module>
+  </Document>
+</Export>
