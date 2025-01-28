@@ -1,8 +1,8 @@
-ARG IMAGE=intersystemsdc/iris-community:2024.3
+ARG IMAGE=containers.intersystems.com/intersystems/iris-community:2024.3
 FROM $IMAGE
 USER root
-WORKDIR /opt/irisbuild
-RUN chown ${ISC_PACKAGE_MGRUSER}:${ISC_PACKAGE_IRISGROUP} /opt/irisbuild
+WORKDIR /opt/irisapp
+RUN chown ${ISC_PACKAGE_MGRUSER}:${ISC_PACKAGE_IRISGROUP} /opt/irisapp
 
 USER ${ISC_PACKAGE_MGRUSER}
 
