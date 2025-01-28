@@ -1,0 +1,6 @@
+CREATE or REPLACE PROCEDURE 
+HGETV(IN name VARCHAR(50)) RETURNS VARCHAR(50)
+  LANGUAGE OBJECTSCRIPT 
+  {
+ 	quit $get(^||host($g(name,"%")))
+  }
