@@ -1,4 +1,5 @@
 # Mimic SQL Host Variables
+[![Quality Gate Status](https://community.objectscriptquality.com/api/project_badges/measure?project=intersystems_iris_community__Mimic-SQL-Host-Variables&metric=alert_status&token=sqb_1fc8f5f73963aa2349345e4b7f9b1e393a9e562b)](https://community.objectscriptquality.com/dashboard?id=intersystems_iris_community__Mimic-SQL-Host-Variables)   
 In IRIS host variables just exist within embedded SQL    
 >  You can supply host variables for Embedded SQL queries only.   
 >  Related examples are included in the available documentation      
