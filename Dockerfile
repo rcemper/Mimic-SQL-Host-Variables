@@ -1,5 +1,4 @@
-# just a dummy to check if OEX reacts to it
-ARG IMAGE=intersystemsdc/iris-community
+ARG IMAGE=intersystemsdc/iris-community:2024.3
 FROM $IMAGE
 USER root
 WORKDIR /opt/irisbuild
@@ -7,8 +6,8 @@ RUN chown ${ISC_PACKAGE_MGRUSER}:${ISC_PACKAGE_IRISGROUP} /opt/irisbuild
 
 USER ${ISC_PACKAGE_MGRUSER}
 
-# COPY src src
-# COPY module.xml module.xml
+COPY src src
+COPY module.xml module.xml
 COPY iris.script iris.script
 
 RUN iris start IRIS \
