@@ -1,5 +1,5 @@
 ARG IMAGE=containers.intersystems.com/intersystems/iris-community:2024.3
-ARG IMAGE=intersystemsdc/intersystems/iris-community
+ARG IMAGE=intersystemsdc/iris-community
 FROM $IMAGE
 USER root
 WORKDIR /opt/irisapp
