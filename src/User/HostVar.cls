@@ -4,7 +4,7 @@ Class User.HostVar
  {
     quit $get(^||host($g(name,"%")))
  }
- ClassMethod GetI(name) As %Integer [ SqlName = HGETV, SqlProc ]
+ ClassMethod GetI(name) As %Integer [ SqlName = HGETI, SqlProc ]
  {
     quit $get(^||host($g(name,"%")))
  }
