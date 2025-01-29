@@ -36,13 +36,11 @@ $ docker-compose exec iris iris session iris
 USER>
 ```
 To access IRIS System Management Portal (SMP)
-```
 http://localhost:42773/csp/sys/UtilHome.csp
-```
+
 To access Iterm in browser
-```
 http://localhost:42773/iterm/
-```
+
 ### How to use it
 
 You can run the SQL scripts from SMP/ Explorer / SQL
