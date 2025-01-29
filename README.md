@@ -35,10 +35,10 @@ To open IRIS console Terminal do:
 $ docker-compose exec iris iris session iris
 USER>
 ```
-To access IRIS System Management Portal (SMP)
+To access IRIS System Management Portal (SMP)    
 http://localhost:42773/csp/sys/UtilHome.csp
 
-To access Iterm in browser
+To access Iterm in browser     
 http://localhost:42773/iterm/
 
 ### How to use it
