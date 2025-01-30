@@ -58,3 +58,5 @@ Enter <command>, 'q' to quit, '?' for help.
 [Video](https://youtu.be/k7rKN1vkvWA)   
 
 [![Quality Gate Status](https://community.objectscriptquality.com/api/project_badges/measure?project=intersystems_iris_community__Mimic-SQL-Host-Variables&metric=alert_status&token=sqb_1fc8f5f73963aa2349345e4b7f9b1e393a9e562b)](https://community.objectscriptquality.com/dashboard?id=intersystems_iris_community__Mimic-SQL-Host-Variables)    
+
+[Implentation of Ideas Portal]8https://ideas.intersystems.com/ideas/DPI-I-671)
